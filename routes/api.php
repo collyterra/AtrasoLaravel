@@ -26,4 +26,4 @@ Route::get('/modulo','App\Http\Controllers\ModuloController@index');
 Route::get('/curso','App\Http\Controllers\CursoController@index');
 Route::get('/atraso','App\Http\Controllers\AtrasoController@index');
 
-Route::post('/qrcodePost',[QrCodeController::class, 'store']);
+Route::post('/qrcode',[QrCodeController::class, 'store']);

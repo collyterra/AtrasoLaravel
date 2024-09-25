@@ -10,5 +10,10 @@
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@react-navigation/bottom-tabs": "^6.6.1",
+        "@react-navigation/native": "^6.1.18",
+        "@react-navigation/stack": "^6.4.1"
     }
 }
