@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QrCodeController;
+use App\Http\Controllers\ControllerAluno;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,5 +26,6 @@ Route::get('/periodo','App\Http\Controllers\PeriodoController@index');
 Route::get('/modulo','App\Http\Controllers\ModuloController@index');
 Route::get('/curso','App\Http\Controllers\CursoController@index');
 Route::get('/atraso','App\Http\Controllers\AtrasoController@index');
+Route::get('/alunos' ,'App\Http\Controllers\AlunosController@index') ;
 
 Route::post('/qrcode',[QrCodeController::class, 'store']);
